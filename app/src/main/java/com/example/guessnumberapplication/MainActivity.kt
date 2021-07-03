@@ -64,7 +64,7 @@ fun Homepage(navController : NavController){
     Column(modifier = Modifier.fillMaxSize()
         , horizontalAlignment = Alignment.CenterHorizontally
         , verticalArrangement = Arrangement.SpaceAround) {
-        Text(text = "Number Guessing Game",fontSize = 36.sp, fontWeight = FontWeight.Bold)
+        Text(text = "Number Guessing Game",fontSize = 30.sp, fontWeight = FontWeight.Bold)
         Image(painter = painterResource(id = R.drawable.ic_dice)
             , contentDescription = "Dice")
         Button(onClick = { navController.navigate("guess_screen") }
